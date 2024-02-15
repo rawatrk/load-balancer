@@ -3,6 +3,23 @@ package algo.lbstatic;
 import java.util.ArrayList;
 import java.util.List;
 
+//class Server{
+//	String name;
+//	int ram;
+//	
+//	public Server(String name, int ram) {
+//		super();
+//		this.name = name;
+//		this.ram = ram;
+//	}
+//
+//	@Override
+//	public String toString() {
+//		return "Server [name=" + name + ", ram=" + ram + "]";
+//	}
+//	
+//}
+
 class LoadBalancer{
 	private List<String> servers;
 	private int currentIndex;
